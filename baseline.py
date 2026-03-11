@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 import json
+import logging
 import math
 import boto3
 from datetime import datetime
 from typing import Optional
-import logging
 
 s3 = boto3.client("s3")
 logger = logging.getLogger(__name__)
-
 LOG_PATH = "/home/ubuntu/anomaly-detection/app.log"
 
 class BaselineManager:
@@ -27,22 +26,26 @@ class BaselineManager:
             return json.loads(response["Body"].read())
         except s3.exceptions.NoSuchKey:
             return {}
+        except Exception as e:
+            logger.error(f"Failed to load baseline: {e}")
+            return {}
 
     def save(self, baseline: dict):
-        baseline["last_updated"] = datetime.utcnow().isoformat()
-        s3.put_object(
-            Bucket=self.bucket,
-            Key=self.baseline_key,
-            Body=json.dumps(baseline, indent=2),
-            ContentType="application/json"
-        )
+        try:
+            baseline["last_updated"] = datetime.utcnow().isoformat()
+            s3.put_object(
+                Bucket=self.bucket,
+                Key=self.baseline_key,
+                Body=json.dumps(baseline, indent=2),
+                ContentType="application/json"
+            )
+            logger.info("Baseline updated and saved to S3.")
+            s3.upload_file(LOG_PATH, self.bucket, "logs/app.log")
+            logger.info("Log synced to S3.")
+        except Exception as e:
+            logger.error(f"Failed to save baseline or sync log: {e}")
 
     def update(self, baseline: dict, channel: str, new_values: list[float]) -> dict:
-        """
-        Welford's online algorithm for numerically stable mean and variance.
-        Each channel tracks: count, mean, M2 (sum of squared deviations).
-        Variance = M2 / count, std = sqrt(variance).
-        """
         if channel not in baseline:
             baseline[channel] = {"count": 0, "mean": 0.0, "M2": 0.0}
 
@@ -55,7 +58,6 @@ class BaselineManager:
             delta2 = value - state["mean"]
             state["M2"] += delta * delta2
 
-        # Only compute std once we have enough observations
         if state["count"] >= 2:
             variance = state["M2"] / state["count"]
             state["std"] = math.sqrt(variance)
@@ -63,6 +65,7 @@ class BaselineManager:
             state["std"] = 0.0
 
         baseline[channel] = state
+        logger.info(f"Baseline updated for channel '{channel}': mean={state['mean']:.4f}, std={state['std']:.4f}, count={state['count']}")
         return baseline
 
     def get_stats(self, baseline: dict, channel: str) -> Optional[dict]:
