@@ -29,6 +29,7 @@ class BaselineManager:
             return {}
 
     def save(self, baseline: dict):
+    try:
         baseline["last_updated"] = datetime.utcnow().isoformat()
         s3.put_object(
             Bucket=self.bucket,
@@ -36,6 +37,11 @@ class BaselineManager:
             Body=json.dumps(baseline, indent=2),
             ContentType="application/json"
         )
+        logger.info("Baseline updated and saved to S3.")
+        s3.upload_file(LOG_PATH, self.bucket, "logs/app.log")
+        logger.info("Log synced to S3.")
+    except Exception as e:
+        logger.error(f"Failed to save baseline or sync log: {e}")
 
     def update(self, baseline: dict, channel: str, new_values: list[float]) -> dict:
         """
