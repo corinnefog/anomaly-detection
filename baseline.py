@@ -4,9 +4,12 @@ import math
 import boto3
 from datetime import datetime
 from typing import Optional
+import logging
 
 s3 = boto3.client("s3")
+logger = logging.getLogger(__name__)
 
+LOG_PATH = "/home/ubuntu/anomaly-detection/app.log"
 
 class BaselineManager:
     """

@@ -9,11 +9,33 @@ from datetime import datetime
 from fastapi import FastAPI, BackgroundTasks, Request
 from baseline import BaselineManager
 from processor import process_file
+import logging
 
 app = FastAPI(title="Anomaly Detection Pipeline")
 
 s3 = boto3.client("s3")
 BUCKET_NAME = os.environ["BUCKET_NAME"]
+
+#-- Logging --
+LOG_PATH = "/home/ubuntu/anomaly-detection/app.log"
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_PATH),
+        logging.StreamHandler(),
+    ],
+)
+logger = logging.getLogger(__name__)
+
+def sync_to_s3():
+    """Upload the local log file to S3."""
+    try:
+        s3.upload_file(LOG_PATH, BUCKET_NAME, "logs/app.log")
+        logger.info("Log synced to S3.")
+    except Exception as e:
+        logger.error(f"Failed to sync log to S3: {e}")
 
 # ── SNS subscription confirmation + message handler ──────────────────────────
 
