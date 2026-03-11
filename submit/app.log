@@ -1,0 +1,405 @@
+2026-03-11 17:51:59,058 INFO Started server process [5272]
+2026-03-11 17:51:59,059 INFO Waiting for application startup.
+2026-03-11 17:51:59,060 INFO Application startup complete.
+2026-03-11 17:51:59,061 INFO Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-03-11 17:58:41,024 INFO Shutting down
+2026-03-11 17:58:41,126 INFO Waiting for application shutdown.
+2026-03-11 17:58:41,127 INFO Application shutdown complete.
+2026-03-11 17:58:41,128 INFO Finished server process [5272]
+2026-03-11 17:58:43,100 INFO Started server process [5377]
+2026-03-11 17:58:43,101 INFO Waiting for application startup.
+2026-03-11 17:58:43,102 INFO Application startup complete.
+2026-03-11 17:58:43,103 INFO Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-03-11 18:05:10,201 INFO Shutting down
+2026-03-11 18:05:10,302 INFO Waiting for application shutdown.
+2026-03-11 18:05:10,303 INFO Application shutdown complete.
+2026-03-11 18:05:10,304 INFO Finished server process [5377]
+2026-03-11 18:11:00,502 INFO Started server process [5609]
+2026-03-11 18:11:00,503 INFO Waiting for application startup.
+2026-03-11 18:11:00,504 INFO Application startup complete.
+2026-03-11 18:11:00,505 INFO Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-03-11 18:28:01,525 INFO Shutting down
+2026-03-11 18:28:01,627 INFO Waiting for application shutdown.
+2026-03-11 18:28:01,630 INFO Application shutdown complete.
+2026-03-11 18:28:01,632 INFO Finished server process [5609]
+2026-03-11 18:28:04,710 INFO Started server process [5734]
+2026-03-11 18:28:04,711 INFO Waiting for application startup.
+2026-03-11 18:28:04,712 INFO Application startup complete.
+2026-03-11 18:28:04,713 INFO Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-03-11 18:28:35,390 INFO Baseline updated for channel 'temperature': mean=21.7474, std=1.5847, count=100
+2026-03-11 18:28:35,390 INFO Baseline updated for channel 'humidity': mean=54.4920, std=7.7867, count=100
+2026-03-11 18:28:35,391 INFO Baseline updated for channel 'pressure': mean=1013.3320, std=3.7329, count=100
+2026-03-11 18:28:35,391 INFO Baseline updated for channel 'wind_speed': mean=10.2437, std=3.2636, count=100
+2026-03-11 18:28:35,645 INFO Baseline updated and saved to S3.
+2026-03-11 18:28:35,772 INFO Log synced to S3.
+2026-03-11 18:29:35,971 INFO Baseline updated for channel 'temperature': mean=22.1031, std=2.2620, count=200
+2026-03-11 18:29:35,972 INFO Baseline updated for channel 'humidity': mean=54.5551, std=7.3291, count=200
+2026-03-11 18:29:35,972 INFO Baseline updated for channel 'pressure': mean=1013.2211, std=3.3814, count=200
+2026-03-11 18:29:35,973 INFO Baseline updated for channel 'wind_speed': mean=9.9680, std=3.0679, count=200
+2026-03-11 18:29:36,236 INFO Baseline updated and saved to S3.
+2026-03-11 18:29:36,277 INFO Log synced to S3.
+2026-03-11 18:30:36,528 INFO Baseline updated for channel 'temperature': mean=22.0442, std=1.9873, count=300
+2026-03-11 18:30:36,529 INFO Baseline updated for channel 'humidity': mean=54.3863, std=7.9549, count=300
+2026-03-11 18:30:36,529 INFO Baseline updated for channel 'pressure': mean=1013.0791, std=3.1881, count=300
+2026-03-11 18:30:36,529 INFO Baseline updated for channel 'wind_speed': mean=10.0513, std=3.1373, count=300
+2026-03-11 18:30:36,808 INFO Baseline updated and saved to S3.
+2026-03-11 18:30:36,841 INFO Log synced to S3.
+2026-03-11 18:31:37,129 INFO Baseline updated for channel 'temperature': mean=21.9860, std=1.9310, count=400
+2026-03-11 18:31:37,129 INFO Baseline updated for channel 'humidity': mean=54.6018, std=7.4107, count=400
+2026-03-11 18:31:37,130 INFO Baseline updated for channel 'pressure': mean=1013.0338, std=3.7518, count=400
+2026-03-11 18:31:37,130 INFO Baseline updated for channel 'wind_speed': mean=10.0119, std=3.0218, count=400
+2026-03-11 18:31:37,378 INFO Baseline updated and saved to S3.
+2026-03-11 18:31:37,421 INFO Log synced to S3.
+2026-03-11 18:32:37,577 INFO Baseline updated for channel 'temperature': mean=22.0227, std=1.8981, count=500
+2026-03-11 18:32:37,578 INFO Baseline updated for channel 'humidity': mean=54.6374, std=7.3193, count=500
+2026-03-11 18:32:37,578 INFO Baseline updated for channel 'pressure': mean=1012.9723, std=3.6309, count=500
+2026-03-11 18:32:37,579 INFO Baseline updated for channel 'wind_speed': mean=9.9930, std=3.3129, count=500
+2026-03-11 18:32:37,860 INFO Baseline updated and saved to S3.
+2026-03-11 18:32:37,894 INFO Log synced to S3.
+2026-03-11 18:33:37,297 INFO Baseline updated for channel 'temperature': mean=21.9996, std=1.9093, count=600
+2026-03-11 18:33:37,298 INFO Baseline updated for channel 'humidity': mean=54.7616, std=7.2249, count=600
+2026-03-11 18:33:37,298 INFO Baseline updated for channel 'pressure': mean=1012.9313, std=3.6032, count=600
+2026-03-11 18:33:37,298 INFO Baseline updated for channel 'wind_speed': mean=9.9158, std=3.2981, count=600
+2026-03-11 18:33:37,542 INFO Baseline updated and saved to S3.
+2026-03-11 18:33:37,572 INFO Log synced to S3.
+2026-03-11 18:34:37,820 INFO Baseline updated for channel 'temperature': mean=22.0205, std=1.8605, count=700
+2026-03-11 18:34:37,821 INFO Baseline updated for channel 'humidity': mean=54.8746, std=7.3550, count=700
+2026-03-11 18:34:37,821 INFO Baseline updated for channel 'pressure': mean=1012.8657, std=3.6253, count=700
+2026-03-11 18:34:37,821 INFO Baseline updated for channel 'wind_speed': mean=10.0114, std=3.2253, count=700
+2026-03-11 18:34:38,098 INFO Baseline updated and saved to S3.
+2026-03-11 18:34:38,133 INFO Log synced to S3.
+2026-03-11 18:35:38,298 INFO Baseline updated for channel 'temperature': mean=22.0916, std=1.9692, count=800
+2026-03-11 18:35:38,299 INFO Baseline updated for channel 'humidity': mean=54.9342, std=7.1438, count=800
+2026-03-11 18:35:38,299 INFO Baseline updated for channel 'pressure': mean=1012.8477, std=3.5447, count=800
+2026-03-11 18:35:38,300 INFO Baseline updated for channel 'wind_speed': mean=9.9897, std=3.1634, count=800
+2026-03-11 18:35:38,596 INFO Baseline updated and saved to S3.
+2026-03-11 18:35:38,631 INFO Log synced to S3.
+2026-03-11 18:36:38,832 INFO Baseline updated for channel 'temperature': mean=22.0547, std=1.9624, count=900
+2026-03-11 18:36:38,832 INFO Baseline updated for channel 'humidity': mean=54.9308, std=7.1396, count=900
+2026-03-11 18:36:38,833 INFO Baseline updated for channel 'pressure': mean=1012.8597, std=3.4954, count=900
+2026-03-11 18:36:38,833 INFO Baseline updated for channel 'wind_speed': mean=10.0448, std=3.2717, count=900
+2026-03-11 18:36:39,081 INFO Baseline updated and saved to S3.
+2026-03-11 18:36:39,127 INFO Log synced to S3.
+2026-03-11 18:37:38,643 INFO Baseline updated for channel 'temperature': mean=22.0614, std=1.9564, count=1000
+2026-03-11 18:37:38,644 INFO Baseline updated for channel 'humidity': mean=54.9128, std=7.0218, count=1000
+2026-03-11 18:37:38,644 INFO Baseline updated for channel 'pressure': mean=1012.8555, std=3.4884, count=1000
+2026-03-11 18:37:38,645 INFO Baseline updated for channel 'wind_speed': mean=10.0422, std=3.2485, count=1000
+2026-03-11 18:37:38,887 INFO Baseline updated and saved to S3.
+2026-03-11 18:37:38,923 INFO Log synced to S3.
+2026-03-11 18:38:38,876 INFO Baseline updated for channel 'temperature': mean=22.0453, std=1.9902, count=1100
+2026-03-11 18:38:38,876 INFO Baseline updated for channel 'humidity': mean=54.9538, std=6.9037, count=1100
+2026-03-11 18:38:38,877 INFO Baseline updated for channel 'pressure': mean=1012.8435, std=3.7853, count=1100
+2026-03-11 18:38:38,877 INFO Baseline updated for channel 'wind_speed': mean=10.0420, std=3.1883, count=1100
+2026-03-11 18:38:39,118 INFO Baseline updated and saved to S3.
+2026-03-11 18:38:39,149 INFO Log synced to S3.
+2026-03-11 18:39:39,758 INFO Baseline updated for channel 'temperature': mean=22.0390, std=1.9488, count=1200
+2026-03-11 18:39:39,758 INFO Baseline updated for channel 'humidity': mean=55.0620, std=7.0363, count=1200
+2026-03-11 18:39:39,759 INFO Baseline updated for channel 'pressure': mean=1012.8824, std=3.9206, count=1200
+2026-03-11 18:39:39,759 INFO Baseline updated for channel 'wind_speed': mean=10.0746, std=3.1476, count=1200
+2026-03-11 18:39:40,006 INFO Baseline updated and saved to S3.
+2026-03-11 18:39:40,040 INFO Log synced to S3.
+2026-03-11 18:40:40,183 INFO Baseline updated for channel 'temperature': mean=22.0347, std=1.9206, count=1300
+2026-03-11 18:40:40,184 INFO Baseline updated for channel 'humidity': mean=55.1045, std=7.0274, count=1300
+2026-03-11 18:40:40,184 INFO Baseline updated for channel 'pressure': mean=1012.8836, std=3.9074, count=1300
+2026-03-11 18:40:40,185 INFO Baseline updated for channel 'wind_speed': mean=10.0553, std=3.1435, count=1300
+2026-03-11 18:40:40,432 INFO Baseline updated and saved to S3.
+2026-03-11 18:40:40,463 INFO Log synced to S3.
+2026-03-11 18:41:40,636 INFO Baseline updated for channel 'temperature': mean=22.0260, std=1.9108, count=1400
+2026-03-11 18:41:40,636 INFO Baseline updated for channel 'humidity': mean=55.0969, std=6.9820, count=1400
+2026-03-11 18:41:40,637 INFO Baseline updated for channel 'pressure': mean=1012.9473, std=3.9857, count=1400
+2026-03-11 18:41:40,637 INFO Baseline updated for channel 'wind_speed': mean=10.0561, std=3.0956, count=1400
+2026-03-11 18:41:40,878 INFO Baseline updated and saved to S3.
+2026-03-11 18:41:40,907 INFO Log synced to S3.
+2026-03-11 18:42:40,518 INFO Baseline updated for channel 'temperature': mean=22.0270, std=1.8785, count=1500
+2026-03-11 18:42:40,519 INFO Baseline updated for channel 'humidity': mean=55.0920, std=6.8951, count=1500
+2026-03-11 18:42:40,519 INFO Baseline updated for channel 'pressure': mean=1012.9510, std=3.9383, count=1500
+2026-03-11 18:42:40,520 INFO Baseline updated for channel 'wind_speed': mean=10.0744, std=3.3841, count=1500
+2026-03-11 18:42:41,100 INFO Baseline updated and saved to S3.
+2026-03-11 18:42:41,133 INFO Log synced to S3.
+2026-03-11 18:43:40,878 INFO Baseline updated for channel 'temperature': mean=22.0227, std=1.8936, count=1600
+2026-03-11 18:43:40,879 INFO Baseline updated for channel 'humidity': mean=55.1318, std=6.8153, count=1600
+2026-03-11 18:43:40,879 INFO Baseline updated for channel 'pressure': mean=1012.9568, std=3.8629, count=1600
+2026-03-11 18:43:40,879 INFO Baseline updated for channel 'wind_speed': mean=10.0280, std=3.4421, count=1600
+2026-03-11 18:43:41,133 INFO Baseline updated and saved to S3.
+2026-03-11 18:43:41,189 INFO Log synced to S3.
+2026-03-11 18:44:40,500 INFO Baseline updated for channel 'temperature': mean=22.0249, std=1.8875, count=1700
+2026-03-11 18:44:40,501 INFO Baseline updated for channel 'humidity': mean=55.1345, std=6.7394, count=1700
+2026-03-11 18:44:40,501 INFO Baseline updated for channel 'pressure': mean=1012.9383, std=3.8662, count=1700
+2026-03-11 18:44:40,502 INFO Baseline updated for channel 'wind_speed': mean=10.0275, std=3.3929, count=1700
+2026-03-11 18:44:40,747 INFO Baseline updated and saved to S3.
+2026-03-11 18:44:40,778 INFO Log synced to S3.
+2026-03-11 18:45:41,306 INFO Baseline updated for channel 'temperature': mean=22.0280, std=1.8770, count=1800
+2026-03-11 18:45:41,307 INFO Baseline updated for channel 'humidity': mean=55.0908, std=6.6984, count=1800
+2026-03-11 18:45:41,307 INFO Baseline updated for channel 'pressure': mean=1012.9523, std=3.8833, count=1800
+2026-03-11 18:45:41,308 INFO Baseline updated for channel 'wind_speed': mean=10.0174, std=3.3781, count=1800
+2026-03-11 18:45:41,538 INFO Baseline updated and saved to S3.
+2026-03-11 18:45:41,571 INFO Log synced to S3.
+2026-03-11 18:46:41,828 INFO Baseline updated for channel 'temperature': mean=22.0226, std=1.8707, count=1900
+2026-03-11 18:46:41,829 INFO Baseline updated for channel 'humidity': mean=55.0664, std=6.7105, count=1900
+2026-03-11 18:46:41,829 INFO Baseline updated for channel 'pressure': mean=1012.9794, std=3.8270, count=1900
+2026-03-11 18:46:41,830 INFO Baseline updated for channel 'wind_speed': mean=10.0093, std=3.3911, count=1900
+2026-03-11 18:46:42,080 INFO Baseline updated and saved to S3.
+2026-03-11 18:46:42,122 INFO Log synced to S3.
+2026-03-11 18:47:42,477 INFO Baseline updated for channel 'temperature': mean=22.0152, std=1.8655, count=2000
+2026-03-11 18:47:42,478 INFO Baseline updated for channel 'humidity': mean=55.0384, std=6.8298, count=2000
+2026-03-11 18:47:42,478 INFO Baseline updated for channel 'pressure': mean=1012.9719, std=3.8759, count=2000
+2026-03-11 18:47:42,478 INFO Baseline updated for channel 'wind_speed': mean=10.0077, std=3.3452, count=2000
+2026-03-11 18:47:42,742 INFO Baseline updated and saved to S3.
+2026-03-11 18:47:42,785 INFO Log synced to S3.
+2026-03-11 18:48:42,154 INFO Baseline updated for channel 'temperature': mean=22.0026, std=1.8543, count=2100
+2026-03-11 18:48:42,154 INFO Baseline updated for channel 'humidity': mean=55.0514, std=6.7757, count=2100
+2026-03-11 18:48:42,155 INFO Baseline updated for channel 'pressure': mean=1012.9939, std=4.0155, count=2100
+2026-03-11 18:48:42,155 INFO Baseline updated for channel 'wind_speed': mean=9.9838, std=3.3402, count=2100
+2026-03-11 18:48:42,409 INFO Baseline updated and saved to S3.
+2026-03-11 18:48:42,441 INFO Log synced to S3.
+2026-03-11 18:49:42,632 INFO Baseline updated for channel 'temperature': mean=22.0048, std=1.8380, count=2200
+2026-03-11 18:49:42,633 INFO Baseline updated for channel 'humidity': mean=55.0390, std=6.7751, count=2200
+2026-03-11 18:49:42,633 INFO Baseline updated for channel 'pressure': mean=1012.9952, std=3.9710, count=2200
+2026-03-11 18:49:42,634 INFO Baseline updated for channel 'wind_speed': mean=9.9700, std=3.3607, count=2200
+2026-03-11 18:49:42,883 INFO Baseline updated and saved to S3.
+2026-03-11 18:49:42,925 INFO Log synced to S3.
+2026-03-11 18:50:43,154 INFO Baseline updated for channel 'temperature': mean=22.0046, std=1.8197, count=2300
+2026-03-11 18:50:43,154 INFO Baseline updated for channel 'humidity': mean=55.0578, std=6.7586, count=2300
+2026-03-11 18:50:43,155 INFO Baseline updated for channel 'pressure': mean=1012.9788, std=3.9466, count=2300
+2026-03-11 18:50:43,155 INFO Baseline updated for channel 'wind_speed': mean=9.9538, std=3.3486, count=2300
+2026-03-11 18:50:43,406 INFO Baseline updated and saved to S3.
+2026-03-11 18:50:43,439 INFO Log synced to S3.
+2026-03-11 18:51:43,066 INFO Baseline updated for channel 'temperature': mean=22.0130, std=1.8253, count=2400
+2026-03-11 18:51:43,066 INFO Baseline updated for channel 'humidity': mean=55.0326, std=6.6952, count=2400
+2026-03-11 18:51:43,067 INFO Baseline updated for channel 'pressure': mean=1012.9695, std=4.0137, count=2400
+2026-03-11 18:51:43,067 INFO Baseline updated for channel 'wind_speed': mean=9.9615, std=3.3130, count=2400
+2026-03-11 18:51:43,329 INFO Baseline updated and saved to S3.
+2026-03-11 18:51:43,362 INFO Log synced to S3.
+2026-03-11 18:52:43,473 INFO Baseline updated for channel 'temperature': mean=22.0186, std=1.8111, count=2500
+2026-03-11 18:52:43,473 INFO Baseline updated for channel 'humidity': mean=55.0607, std=6.8674, count=2500
+2026-03-11 18:52:43,474 INFO Baseline updated for channel 'pressure': mean=1012.9949, std=3.9714, count=2500
+2026-03-11 18:52:43,474 INFO Baseline updated for channel 'wind_speed': mean=9.9781, std=3.2856, count=2500
+2026-03-11 18:52:43,747 INFO Baseline updated and saved to S3.
+2026-03-11 18:52:43,779 INFO Log synced to S3.
+2026-03-11 18:53:43,973 INFO Baseline updated for channel 'temperature': mean=22.0198, std=1.7980, count=2600
+2026-03-11 18:53:43,974 INFO Baseline updated for channel 'humidity': mean=55.0985, std=6.9673, count=2600
+2026-03-11 18:53:43,974 INFO Baseline updated for channel 'pressure': mean=1012.9713, std=3.9993, count=2600
+2026-03-11 18:53:43,975 INFO Baseline updated for channel 'wind_speed': mean=9.9780, std=3.2589, count=2600
+2026-03-11 18:53:44,246 INFO Baseline updated and saved to S3.
+2026-03-11 18:53:44,280 INFO Log synced to S3.
+2026-03-11 18:54:43,865 INFO Baseline updated for channel 'temperature': mean=22.0157, std=1.8035, count=2700
+2026-03-11 18:54:43,866 INFO Baseline updated for channel 'humidity': mean=55.0985, std=6.9070, count=2700
+2026-03-11 18:54:43,866 INFO Baseline updated for channel 'pressure': mean=1012.9901, std=3.9792, count=2700
+2026-03-11 18:54:43,867 INFO Baseline updated for channel 'wind_speed': mean=9.9728, std=3.2911, count=2700
+2026-03-11 18:54:44,101 INFO Baseline updated and saved to S3.
+2026-03-11 18:54:44,168 INFO Log synced to S3.
+2026-03-11 18:55:44,189 INFO Baseline updated for channel 'temperature': mean=22.0226, std=1.8257, count=2800
+2026-03-11 18:55:44,190 INFO Baseline updated for channel 'humidity': mean=55.0909, std=6.8839, count=2800
+2026-03-11 18:55:44,190 INFO Baseline updated for channel 'pressure': mean=1012.9939, std=3.9482, count=2800
+2026-03-11 18:55:44,191 INFO Baseline updated for channel 'wind_speed': mean=9.9766, std=3.2683, count=2800
+2026-03-11 18:55:44,438 INFO Baseline updated and saved to S3.
+2026-03-11 18:55:44,470 INFO Log synced to S3.
+2026-03-11 18:56:43,965 INFO Baseline updated for channel 'temperature': mean=22.0250, std=1.8179, count=2900
+2026-03-11 18:56:43,966 INFO Baseline updated for channel 'humidity': mean=55.1106, std=6.8595, count=2900
+2026-03-11 18:56:43,966 INFO Baseline updated for channel 'pressure': mean=1012.9972, std=3.9217, count=2900
+2026-03-11 18:56:43,966 INFO Baseline updated for channel 'wind_speed': mean=9.9789, std=3.2888, count=2900
+2026-03-11 18:56:44,202 INFO Baseline updated and saved to S3.
+2026-03-11 18:56:44,239 INFO Log synced to S3.
+2026-03-11 18:57:44,576 INFO Baseline updated for channel 'temperature': mean=22.0257, std=1.8221, count=3000
+2026-03-11 18:57:44,576 INFO Baseline updated for channel 'humidity': mean=55.1329, std=6.8144, count=3000
+2026-03-11 18:57:44,577 INFO Baseline updated for channel 'pressure': mean=1013.0032, std=3.9226, count=3000
+2026-03-11 18:57:44,577 INFO Baseline updated for channel 'wind_speed': mean=9.9910, std=3.3024, count=3000
+2026-03-11 18:57:44,818 INFO Baseline updated and saved to S3.
+2026-03-11 18:57:44,888 INFO Log synced to S3.
+2026-03-11 18:58:44,283 INFO Baseline updated for channel 'temperature': mean=22.0160, std=1.8316, count=3100
+2026-03-11 18:58:44,283 INFO Baseline updated for channel 'humidity': mean=55.1094, std=6.7602, count=3100
+2026-03-11 18:58:44,284 INFO Baseline updated for channel 'pressure': mean=1013.0206, std=3.8933, count=3100
+2026-03-11 18:58:44,284 INFO Baseline updated for channel 'wind_speed': mean=9.9822, std=3.3510, count=3100
+2026-03-11 18:58:44,544 INFO Baseline updated and saved to S3.
+2026-03-11 18:58:44,585 INFO Log synced to S3.
+2026-03-11 18:59:44,737 INFO Baseline updated for channel 'temperature': mean=22.0176, std=1.8319, count=3200
+2026-03-11 18:59:44,738 INFO Baseline updated for channel 'humidity': mean=55.1339, std=6.7809, count=3200
+2026-03-11 18:59:44,738 INFO Baseline updated for channel 'pressure': mean=1012.9977, std=3.8903, count=3200
+2026-03-11 18:59:44,739 INFO Baseline updated for channel 'wind_speed': mean=9.9776, std=3.3267, count=3200
+2026-03-11 18:59:44,980 INFO Baseline updated and saved to S3.
+2026-03-11 18:59:45,056 INFO Log synced to S3.
+2026-03-11 19:00:45,411 INFO Baseline updated for channel 'temperature': mean=22.0148, std=1.8282, count=3300
+2026-03-11 19:00:45,411 INFO Baseline updated for channel 'humidity': mean=55.1224, std=6.8065, count=3300
+2026-03-11 19:00:45,412 INFO Baseline updated for channel 'pressure': mean=1012.9972, std=3.8834, count=3300
+2026-03-11 19:00:45,412 INFO Baseline updated for channel 'wind_speed': mean=9.9765, std=3.3065, count=3300
+2026-03-11 19:00:45,649 INFO Baseline updated and saved to S3.
+2026-03-11 19:00:45,682 INFO Log synced to S3.
+2026-03-11 19:01:45,034 INFO Baseline updated for channel 'temperature': mean=22.0166, std=1.8436, count=3400
+2026-03-11 19:01:45,035 INFO Baseline updated for channel 'humidity': mean=55.1361, std=6.7817, count=3400
+2026-03-11 19:01:45,036 INFO Baseline updated for channel 'pressure': mean=1013.0001, std=3.8917, count=3400
+2026-03-11 19:01:45,036 INFO Baseline updated for channel 'wind_speed': mean=9.9674, std=3.2830, count=3400
+2026-03-11 19:01:45,275 INFO Baseline updated and saved to S3.
+2026-03-11 19:01:45,307 INFO Log synced to S3.
+2026-03-11 19:02:45,756 INFO Baseline updated for channel 'temperature': mean=22.0155, std=1.8483, count=3500
+2026-03-11 19:02:45,756 INFO Baseline updated for channel 'humidity': mean=55.1295, std=6.7911, count=3500
+2026-03-11 19:02:45,757 INFO Baseline updated for channel 'pressure': mean=1012.9922, std=3.8890, count=3500
+2026-03-11 19:02:45,757 INFO Baseline updated for channel 'wind_speed': mean=9.9583, std=3.2644, count=3500
+2026-03-11 19:02:46,018 INFO Baseline updated and saved to S3.
+2026-03-11 19:02:46,071 INFO Log synced to S3.
+2026-03-11 19:03:46,126 INFO Baseline updated for channel 'temperature': mean=22.0176, std=1.8385, count=3600
+2026-03-11 19:03:46,126 INFO Baseline updated for channel 'humidity': mean=55.1626, std=6.8267, count=3600
+2026-03-11 19:03:46,127 INFO Baseline updated for channel 'pressure': mean=1012.9921, std=3.8668, count=3600
+2026-03-11 19:03:46,127 INFO Baseline updated for channel 'wind_speed': mean=9.9617, std=3.2653, count=3600
+2026-03-11 19:03:46,397 INFO Baseline updated and saved to S3.
+2026-03-11 19:03:46,445 INFO Log synced to S3.
+2026-03-11 19:04:46,175 INFO Baseline updated for channel 'temperature': mean=22.0131, std=1.8290, count=3700
+2026-03-11 19:04:46,176 INFO Baseline updated for channel 'humidity': mean=55.1667, std=6.9040, count=3700
+2026-03-11 19:04:46,176 INFO Baseline updated for channel 'pressure': mean=1013.0076, std=3.8597, count=3700
+2026-03-11 19:04:46,177 INFO Baseline updated for channel 'wind_speed': mean=9.9670, std=3.2687, count=3700
+2026-03-11 19:04:46,410 INFO Baseline updated and saved to S3.
+2026-03-11 19:04:46,445 INFO Log synced to S3.
+2026-03-11 19:05:46,365 INFO Baseline updated for channel 'temperature': mean=22.0233, std=1.8292, count=3800
+2026-03-11 19:05:46,366 INFO Baseline updated for channel 'humidity': mean=55.1753, std=6.8609, count=3800
+2026-03-11 19:05:46,366 INFO Baseline updated for channel 'pressure': mean=1013.0214, std=3.8804, count=3800
+2026-03-11 19:05:46,367 INFO Baseline updated for channel 'wind_speed': mean=9.9677, std=3.2852, count=3800
+2026-03-11 19:05:46,633 INFO Baseline updated and saved to S3.
+2026-03-11 19:05:46,675 INFO Log synced to S3.
+2026-03-11 19:06:46,930 INFO Baseline updated for channel 'temperature': mean=22.0277, std=1.8308, count=3900
+2026-03-11 19:06:46,931 INFO Baseline updated for channel 'humidity': mean=55.1695, std=6.8984, count=3900
+2026-03-11 19:06:46,931 INFO Baseline updated for channel 'pressure': mean=1013.0306, std=3.8589, count=3900
+2026-03-11 19:06:46,932 INFO Baseline updated for channel 'wind_speed': mean=9.9816, std=3.2978, count=3900
+2026-03-11 19:06:47,177 INFO Baseline updated and saved to S3.
+2026-03-11 19:06:47,211 INFO Log synced to S3.
+2026-03-11 19:07:46,774 INFO Baseline updated for channel 'temperature': mean=22.0259, std=1.8283, count=4000
+2026-03-11 19:07:46,775 INFO Baseline updated for channel 'humidity': mean=55.1666, std=6.9463, count=4000
+2026-03-11 19:07:46,776 INFO Baseline updated for channel 'pressure': mean=1013.0286, std=3.8358, count=4000
+2026-03-11 19:07:46,776 INFO Baseline updated for channel 'wind_speed': mean=9.9711, std=3.2935, count=4000
+2026-03-11 19:07:47,025 INFO Baseline updated and saved to S3.
+2026-03-11 19:07:47,069 INFO Log synced to S3.
+2026-03-11 19:08:47,247 INFO Baseline updated for channel 'temperature': mean=22.0266, std=1.8371, count=4100
+2026-03-11 19:08:47,248 INFO Baseline updated for channel 'humidity': mean=55.1614, std=6.9103, count=4100
+2026-03-11 19:08:47,249 INFO Baseline updated for channel 'pressure': mean=1013.0356, std=3.8404, count=4100
+2026-03-11 19:08:47,249 INFO Baseline updated for channel 'wind_speed': mean=9.9859, std=3.2888, count=4100
+2026-03-11 19:08:47,503 INFO Baseline updated and saved to S3.
+2026-03-11 19:08:47,537 INFO Log synced to S3.
+2026-03-11 19:09:47,625 INFO Baseline updated for channel 'temperature': mean=22.0242, std=1.8326, count=4200
+2026-03-11 19:09:47,626 INFO Baseline updated for channel 'humidity': mean=55.1782, std=6.9524, count=4200
+2026-03-11 19:09:47,626 INFO Baseline updated for channel 'pressure': mean=1013.0245, std=3.8223, count=4200
+2026-03-11 19:09:47,626 INFO Baseline updated for channel 'wind_speed': mean=9.9809, std=3.2803, count=4200
+2026-03-11 19:09:47,881 INFO Baseline updated and saved to S3.
+2026-03-11 19:09:47,914 INFO Log synced to S3.
+2026-03-11 19:10:47,525 INFO Baseline updated for channel 'temperature': mean=22.0203, std=1.8262, count=4300
+2026-03-11 19:10:47,525 INFO Baseline updated for channel 'humidity': mean=55.1916, std=6.9178, count=4300
+2026-03-11 19:10:47,526 INFO Baseline updated for channel 'pressure': mean=1013.0179, std=3.8328, count=4300
+2026-03-11 19:10:47,526 INFO Baseline updated for channel 'wind_speed': mean=9.9790, std=3.2961, count=4300
+2026-03-11 19:10:47,796 INFO Baseline updated and saved to S3.
+2026-03-11 19:10:47,846 INFO Log synced to S3.
+2026-03-11 19:11:47,767 INFO Baseline updated for channel 'temperature': mean=22.0150, std=1.8316, count=4400
+2026-03-11 19:11:47,768 INFO Baseline updated for channel 'humidity': mean=55.1978, std=6.8921, count=4400
+2026-03-11 19:11:47,769 INFO Baseline updated for channel 'pressure': mean=1013.0158, std=3.8403, count=4400
+2026-03-11 19:11:47,769 INFO Baseline updated for channel 'wind_speed': mean=9.9784, std=3.2877, count=4400
+2026-03-11 19:11:48,011 INFO Baseline updated and saved to S3.
+2026-03-11 19:11:48,039 INFO Log synced to S3.
+2026-03-11 19:12:47,541 INFO Baseline updated for channel 'temperature': mean=22.0195, std=1.8371, count=4500
+2026-03-11 19:12:47,542 INFO Baseline updated for channel 'humidity': mean=55.1829, std=6.8636, count=4500
+2026-03-11 19:12:47,542 INFO Baseline updated for channel 'pressure': mean=1013.0208, std=3.8292, count=4500
+2026-03-11 19:12:47,542 INFO Baseline updated for channel 'wind_speed': mean=9.9771, std=3.2778, count=4500
+2026-03-11 19:12:47,777 INFO Baseline updated and saved to S3.
+2026-03-11 19:12:47,809 INFO Log synced to S3.
+2026-03-11 19:13:48,304 INFO Baseline updated for channel 'temperature': mean=22.0228, std=1.8321, count=4600
+2026-03-11 19:13:48,305 INFO Baseline updated for channel 'humidity': mean=55.1954, std=6.8857, count=4600
+2026-03-11 19:13:48,305 INFO Baseline updated for channel 'pressure': mean=1013.0181, std=3.8142, count=4600
+2026-03-11 19:13:48,306 INFO Baseline updated for channel 'wind_speed': mean=9.9675, std=3.2762, count=4600
+2026-03-11 19:13:48,542 INFO Baseline updated and saved to S3.
+2026-03-11 19:13:48,577 INFO Log synced to S3.
+2026-03-11 19:14:48,672 INFO Baseline updated for channel 'temperature': mean=22.0214, std=1.8262, count=4700
+2026-03-11 19:14:48,672 INFO Baseline updated for channel 'humidity': mean=55.1988, std=6.8870, count=4700
+2026-03-11 19:14:48,673 INFO Baseline updated for channel 'pressure': mean=1012.9967, std=3.8454, count=4700
+2026-03-11 19:14:48,673 INFO Baseline updated for channel 'wind_speed': mean=9.9678, std=3.2675, count=4700
+2026-03-11 19:14:48,926 INFO Baseline updated and saved to S3.
+2026-03-11 19:14:48,971 INFO Log synced to S3.
+2026-03-11 19:15:48,676 INFO Baseline updated for channel 'temperature': mean=22.0195, std=1.8208, count=4800
+2026-03-11 19:15:48,677 INFO Baseline updated for channel 'humidity': mean=55.2151, std=6.8815, count=4800
+2026-03-11 19:15:48,677 INFO Baseline updated for channel 'pressure': mean=1013.0020, std=3.8565, count=4800
+2026-03-11 19:15:48,678 INFO Baseline updated for channel 'wind_speed': mean=9.9703, std=3.2539, count=4800
+2026-03-11 19:15:49,053 INFO Baseline updated and saved to S3.
+2026-03-11 19:15:49,087 INFO Log synced to S3.
+2026-03-11 19:16:48,935 INFO Baseline updated for channel 'temperature': mean=22.0206, std=1.8190, count=4900
+2026-03-11 19:16:48,936 INFO Baseline updated for channel 'humidity': mean=55.2108, std=6.8507, count=4900
+2026-03-11 19:16:48,936 INFO Baseline updated for channel 'pressure': mean=1013.0007, std=3.8677, count=4900
+2026-03-11 19:16:48,936 INFO Baseline updated for channel 'wind_speed': mean=9.9669, std=3.2631, count=4900
+2026-03-11 19:16:49,201 INFO Baseline updated and saved to S3.
+2026-03-11 19:16:49,245 INFO Log synced to S3.
+2026-03-11 19:17:48,785 INFO Baseline updated for channel 'temperature': mean=22.0221, std=1.8160, count=5000
+2026-03-11 19:17:48,786 INFO Baseline updated for channel 'humidity': mean=55.2184, std=6.8579, count=5000
+2026-03-11 19:17:48,786 INFO Baseline updated for channel 'pressure': mean=1012.9934, std=3.8727, count=5000
+2026-03-11 19:17:48,786 INFO Baseline updated for channel 'wind_speed': mean=9.9664, std=3.2465, count=5000
+2026-03-11 19:17:49,066 INFO Baseline updated and saved to S3.
+2026-03-11 19:17:49,120 INFO Log synced to S3.
+2026-03-11 19:18:49,306 INFO Baseline updated for channel 'temperature': mean=22.0217, std=1.8103, count=5100
+2026-03-11 19:18:49,306 INFO Baseline updated for channel 'humidity': mean=55.2064, std=6.8369, count=5100
+2026-03-11 19:18:49,307 INFO Baseline updated for channel 'pressure': mean=1012.9860, std=3.8919, count=5100
+2026-03-11 19:18:49,307 INFO Baseline updated for channel 'wind_speed': mean=9.9606, std=3.2458, count=5100
+2026-03-11 19:18:49,590 INFO Baseline updated and saved to S3.
+2026-03-11 19:18:49,645 INFO Log synced to S3.
+2026-03-11 19:19:49,806 INFO Baseline updated for channel 'temperature': mean=22.0215, std=1.8126, count=5200
+2026-03-11 19:19:49,806 INFO Baseline updated for channel 'humidity': mean=55.1952, std=6.8182, count=5200
+2026-03-11 19:19:49,807 INFO Baseline updated for channel 'pressure': mean=1012.9745, std=3.8849, count=5200
+2026-03-11 19:19:49,807 INFO Baseline updated for channel 'wind_speed': mean=9.9659, std=3.2432, count=5200
+2026-03-11 19:19:50,086 INFO Baseline updated and saved to S3.
+2026-03-11 19:19:50,129 INFO Log synced to S3.
+2026-03-11 19:20:49,474 INFO Baseline updated for channel 'temperature': mean=22.0203, std=1.8145, count=5300
+2026-03-11 19:20:49,475 INFO Baseline updated for channel 'humidity': mean=55.1893, std=6.8167, count=5300
+2026-03-11 19:20:49,475 INFO Baseline updated for channel 'pressure': mean=1012.9775, std=3.8806, count=5300
+2026-03-11 19:20:49,476 INFO Baseline updated for channel 'wind_speed': mean=9.9595, std=3.2308, count=5300
+2026-03-11 19:20:49,718 INFO Baseline updated and saved to S3.
+2026-03-11 19:20:49,753 INFO Log synced to S3.
+2026-03-11 19:21:50,049 INFO Baseline updated for channel 'temperature': mean=22.0214, std=1.8160, count=5400
+2026-03-11 19:21:50,050 INFO Baseline updated for channel 'humidity': mean=55.2081, std=6.8519, count=5400
+2026-03-11 19:21:50,050 INFO Baseline updated for channel 'pressure': mean=1012.9766, std=3.8693, count=5400
+2026-03-11 19:21:50,051 INFO Baseline updated for channel 'wind_speed': mean=9.9521, std=3.2203, count=5400
+2026-03-11 19:21:50,394 INFO Baseline updated and saved to S3.
+2026-03-11 19:21:50,429 INFO Log synced to S3.
+2026-03-11 19:22:49,750 INFO Baseline updated for channel 'temperature': mean=22.0242, std=1.8134, count=5500
+2026-03-11 19:22:49,750 INFO Baseline updated for channel 'humidity': mean=55.2089, std=6.8258, count=5500
+2026-03-11 19:22:49,751 INFO Baseline updated for channel 'pressure': mean=1012.9730, std=3.8686, count=5500
+2026-03-11 19:22:49,751 INFO Baseline updated for channel 'wind_speed': mean=9.9613, std=3.2203, count=5500
+2026-03-11 19:22:50,002 INFO Baseline updated and saved to S3.
+2026-03-11 19:22:50,035 INFO Log synced to S3.
+2026-03-11 19:23:50,463 INFO Baseline updated for channel 'temperature': mean=22.0234, std=1.8282, count=5600
+2026-03-11 19:23:50,463 INFO Baseline updated for channel 'humidity': mean=55.2014, std=6.8148, count=5600
+2026-03-11 19:23:50,464 INFO Baseline updated for channel 'pressure': mean=1012.9748, std=3.8641, count=5600
+2026-03-11 19:23:50,464 INFO Baseline updated for channel 'wind_speed': mean=9.9636, std=3.2073, count=5600
+2026-03-11 19:23:50,721 INFO Baseline updated and saved to S3.
+2026-03-11 19:23:50,757 INFO Log synced to S3.
+2026-03-11 19:24:50,367 INFO Baseline updated for channel 'temperature': mean=22.0244, std=1.8241, count=5700
+2026-03-11 19:24:50,368 INFO Baseline updated for channel 'humidity': mean=55.1800, std=6.8326, count=5700
+2026-03-11 19:24:50,369 INFO Baseline updated for channel 'pressure': mean=1012.9735, std=3.8485, count=5700
+2026-03-11 19:24:50,369 INFO Baseline updated for channel 'wind_speed': mean=9.9625, std=3.1991, count=5700
+2026-03-11 19:24:50,609 INFO Baseline updated and saved to S3.
+2026-03-11 19:24:50,678 INFO Log synced to S3.
+2026-03-11 19:25:50,740 INFO Baseline updated for channel 'temperature': mean=22.0285, std=1.8242, count=5800
+2026-03-11 19:25:50,740 INFO Baseline updated for channel 'humidity': mean=55.1845, std=6.8112, count=5800
+2026-03-11 19:25:50,741 INFO Baseline updated for channel 'pressure': mean=1012.9749, std=3.8496, count=5800
+2026-03-11 19:25:50,741 INFO Baseline updated for channel 'wind_speed': mean=9.9681, std=3.2064, count=5800
+2026-03-11 19:25:50,982 INFO Baseline updated and saved to S3.
+2026-03-11 19:25:51,018 INFO Log synced to S3.
+2026-03-11 19:26:51,311 INFO Baseline updated for channel 'temperature': mean=22.0257, std=1.8177, count=5900
+2026-03-11 19:26:51,312 INFO Baseline updated for channel 'humidity': mean=55.1886, std=6.7938, count=5900
+2026-03-11 19:26:51,312 INFO Baseline updated for channel 'pressure': mean=1012.9806, std=3.8510, count=5900
+2026-03-11 19:26:51,313 INFO Baseline updated for channel 'wind_speed': mean=9.9874, std=3.2365, count=5900
+2026-03-11 19:26:51,565 INFO Baseline updated and saved to S3.
+2026-03-11 19:26:51,595 INFO Log synced to S3.
+2026-03-11 19:27:50,995 INFO Baseline updated for channel 'temperature': mean=22.0206, std=1.8426, count=6000
+2026-03-11 19:27:50,996 INFO Baseline updated for channel 'humidity': mean=55.1806, std=6.7671, count=6000
+2026-03-11 19:27:50,996 INFO Baseline updated for channel 'pressure': mean=1012.9818, std=3.8476, count=6000
+2026-03-11 19:27:50,996 INFO Baseline updated for channel 'wind_speed': mean=9.9879, std=3.2348, count=6000
+2026-03-11 19:27:51,235 INFO Baseline updated and saved to S3.
+2026-03-11 19:27:51,287 INFO Log synced to S3.
+2026-03-11 19:28:51,782 INFO Baseline updated for channel 'temperature': mean=22.0254, std=1.8506, count=6100
+2026-03-11 19:28:51,783 INFO Baseline updated for channel 'humidity': mean=55.1812, std=6.7454, count=6100
+2026-03-11 19:28:51,783 INFO Baseline updated for channel 'pressure': mean=1012.9822, std=3.8461, count=6100
+2026-03-11 19:28:51,784 INFO Baseline updated for channel 'wind_speed': mean=9.9795, std=3.2265, count=6100
+2026-03-11 19:28:52,022 INFO Baseline updated and saved to S3.
+2026-03-11 19:28:52,060 INFO Log synced to S3.
+2026-03-11 19:29:51,396 INFO Baseline updated for channel 'temperature': mean=22.0234, std=1.8496, count=6200
+2026-03-11 19:29:51,397 INFO Baseline updated for channel 'humidity': mean=55.1831, std=6.7243, count=6200
+2026-03-11 19:29:51,397 INFO Baseline updated for channel 'pressure': mean=1012.9766, std=3.8549, count=6200
+2026-03-11 19:29:51,398 INFO Baseline updated for channel 'wind_speed': mean=9.9925, std=3.2236, count=6200
+2026-03-11 19:29:51,666 INFO Baseline updated and saved to S3.
+2026-03-11 19:29:51,703 INFO Log synced to S3.
+2026-03-11 19:30:52,120 INFO Baseline updated for channel 'temperature': mean=22.0228, std=1.8438, count=6300
+2026-03-11 19:30:52,121 INFO Baseline updated for channel 'humidity': mean=55.1651, std=6.7500, count=6300
+2026-03-11 19:30:52,121 INFO Baseline updated for channel 'pressure': mean=1012.9747, std=3.8508, count=6300
+2026-03-11 19:30:52,122 INFO Baseline updated for channel 'wind_speed': mean=9.9821, std=3.2188, count=6300
+2026-03-11 19:30:52,360 INFO Baseline updated and saved to S3.
